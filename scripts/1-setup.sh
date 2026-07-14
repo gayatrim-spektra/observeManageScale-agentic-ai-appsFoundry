@@ -78,9 +78,9 @@ configure_environment_variables() {
     azd env set ENABLE_AZURE_MONITOR_TRACING true
     azd env set AZURE_TRACING_GEN_AI_CONTENT_RECORDING_ENABLED true
     azd env set AZURE_AI_AGENT_DEPLOYMENT_CAPACITY 50 
-    azd env set AZURE_AI_AGENT_DEPLOYMENT_NAME gpt-4.1
-    azd env set AZURE_AI_AGENT_MODEL_NAME gpt-4.1
-    azd env set AZURE_AI_AGENT_MODEL_VERSION 2025-04-14
+    azd env set AZURE_AI_AGENT_DEPLOYMENT_NAME gpt-5-mini
+    azd env set AZURE_AI_AGENT_MODEL_NAME gpt-5-mini
+    azd env set AZURE_AI_AGENT_MODEL_VERSION 2025-08-07
     
     echo -e "${GREEN}✓ Environment variables configured${NC}"
 }
